@@ -1,0 +1,45 @@
+a{ text-decoration: none; color: white; }
+h1 , h2 , h3 , h4 , h5 , h6 , p , button{ font-family: Tahoma , calibri , ae_cortoba ;}
+/* start header */
+.header{ height: 400px; background: url("./EG/eg.jpg");
+text-align: center; padding: 10px;}
+.container{ width: 800px; margin: auto;}
+.clear{clear: both;}
+.header h1{ color: white; font-size: 50px; margin-top: 70px;}
+.header button{ font-size: 20px; background: none; color: white; height: 50px; width: 200px;}
+/* start menu */
+.menu{ height: 50px; padding-top: 20px; background: center red;}
+/* h2 egypt */
+.menu .counter h2{ color: white; float: left; position: relative; margin: 20px;
+bottom: 60px; left: 40px; background-color: rgb(4, 139, 33); font-size: 50px; border: ridge 10px gold;  }
+
+.menu .counter ul{ list-style: none;}
+.menu .counter ul li{ float: right; color: black;
+font-size: 25px; position: relative;
+margin: 30px; bottom: 45px; right: 40px; }
+.menu .counter ul li:hover{ color: rgb(252, 252, 252); border: solid 5px green; }
+.menu .counter h2:hover{ border: solid 5px rgb(65, 225, 86);background-color: gold; }
+
+/* start nile */
+.nile{ margin-top: 30px; padding: 20px; 
+border: transparent 10px lime ; }
+.box1{ float: right; width: 50%;}
+.m{ float: left; width: 50%;}
+
+.nile.container.box2.b2{ float: left; width: 25%; text-align: center; color: chocolate; }
+.nile.container.box2.b2.img{ width: 100%; }
+
+/* start path */
+.path{ margin-top: 30px;}
+.path.container h1{ text-align: center; }    
+.path.container.b3{ float: left; width: 33.3333%; text-align: center; }
+.path.container.path.container.b3 img{ width: 60%; }
+
+/* footer*/
+.footer{
+background: #66329A; padding: 20px; height: 400px; color: white; }   
+.footer.container.part1{ float: right; width: 40%; }
+.footer.container.part1 form{ float: right;}
+.footer.container.part1 form input.footer.container.part1 form textarea , .footer.container.part1 form button{
+margin: 50px red;}
+.container form textarea{ width: 200px;}
